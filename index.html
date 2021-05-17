@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+        
+            @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+        
+            @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Indie+Flower&display=swap');
+            p{font-family:sans-serif; letter-spacing:0px; line-height: 25px;font-size:18px;color:#2a9d8f;}
+            img{min-width:200px;width:100%;box-shadow: 10px 10px 10px #e9c46a;}
+            #mbth{display:none;}
+            #logo{padding:2px 30px;text-shadow: 3px 3px #2a9d8f;}
+            #logo a{
+                text-decoration:none;
+                color:#e76f51;
+                font-family: 'Bebas Neue', cursive; letter-spacing:2px;
+                font-size:60px;}
+            header{position: relative;background:#e9c46a;}
+            nav{position:absolute;
+                top:20px;right:30px;}
+            nav li{display:inline-block;
+                vertical-align: top;}
+            nav a{text-decoration-line: none; 
+                  font-size:30px;
+                  padding:10px;
+                  display: block;
+                  color:#e76f51;
+                font-weight:bold;
+                font-family: 'Bebas Neue', cursive;
+                letter-spacing:2px;}    
+        #title{text-align: center; 
+            font-size: 45px;
+            color:#2a9d8f; 
+            font-family: 'Bebas Neue', cursive;
+            letter-spacing: 1px;}
+        .container
+            {color:#e76f51;
+             max-width: 1000px;
+             margin-left: auto;
+             margin-right:auto;
+             text-align:center;
+             display:grid;
+             grid-template-columns: auto 200px auto;
+             grid-template-columns:1fr 1fr;
+             grid-row-gap: 50px;
+             font-size:20px;
+             font-family:'Bebas Neue', cursive;
+             letter-spacing:1px;
+             grid-gap: 50px;}
+            #list1{list-style: none;font-size:40px;line-height:40px;margin-top:100px;}
+            #list2{list-style: none;font-size:40px;line-height:40px;margin-top:300px;}
+            #list3{list-style: none;font-size:40px;line-height:40px;margin-top:250px;}
+            #list4{list-style: none;font-size:40px;line-height:40px;margin-top:250px;}
+        .coll{grid-column: 1/2;
+              grid-row:1/2;}
+        .colr{grid-column: 2/3;
+              grid-row:1/2;}
+        footer{background:#e9c46a;
+               height:80px;}
+            @media screen and (max-width:700px){
+                nav{position: static;}
+                #logo h1{margin-bottom:0px;text-align: center;}
+                nav ul{margin-top: 0px;text-align: center;padding-left: 0px;}
+                .container{display: block;}
+                #title{font-size:35px;}
+                #list1{padding-left:0px;font-size:30px;line-height: 30px;margin-top:0px;}
+                #list2{padding-left:0px;font-size:30px;line-height: 30px;margin-top:0px;}
+                #list3{padding-left:0px;font-size:30px;line-height: 30px;margin-top:0px;}
+                #list4{padding-left:0px;font-size:30px;line-height: 30px;margin-top:0px;}
+                img{box-shadow: 10px 10px 10px white}
+                p{text-align:center;font-size:18px;line-height: 25px;}
+                footer{margin:0px;}
+            }    
+
+    </style>
+    <title>portfolio-websie</title>
+    </head>
+    
+    <body>
+        <header>
+            <header>
+            <div id="logo">
+                <h1><a href="index.html">Yuxin Pan</a></h1></div>
+                <nav>
+                <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            </header>
+        </header>
+        <h1 id="title">This is my portfolio, have a look at my works</h1>
+        <div class="container">
+            <div class="colr">
+                <ul id="list1">
+                    <li>"Tourist Route in China"</li>
+                    <li>2020</li>
+                    <li>Aodbe Illustrator</li></ul>
+                </div>
+            <div class="coll"><a href="map.html"><img src="map.jpg";></a></div>
+            </div>
+        <br style="clear:both;">
+        
+        <div class="container">
+            <div class="coll">
+                <ul id="list2">
+                    <li>"Zoom University"</li>
+                    <li>2020</li>
+                    <li>Aodbe Illustator</li></ul>
+            </div>
+            <div class="colr"><a href="poster.html"><img src="poster.jpg"></a></div>
+        </div>
+        <br style="clear:both;">
+        
+        <div class="container">
+            <div class="colr">
+                <ul id="list3">
+                <li>"Sachem Logo Design"</li> <li>2019</li> 
+                    <li>Adobe Photoshop</li></ul>
+                </div>
+            <div class="coll"><a href="card.html"><img src="sachemlogo.jpg"></a></div>
+            </div>
+        <br style="clear:both;">
+        
+        <div class="container">
+            <div class="coll">
+                <ul id="list4">
+                    <li>"Devil, Character"</li> 
+                    <li>2020</li> 
+                    <li>Adobe Photoshop</li></ul>
+            </div>
+            <div class="colr"><a href="devil.html"><img src="devil.jpg"></a></div>
+            </div>
+        </body>
+    <br style="clear:both;">
+    
+    <footer>
+</footer>
